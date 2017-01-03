@@ -4,7 +4,7 @@
 int main(int argc,char **argv)
 {
     QApplication app(argc,argv);
-    QLabel lbl("<h1>Hello world<h1>");
+    QLabel lbl("<h1><i>Hello world</i><h1>");
 
     lbl.show();
 
